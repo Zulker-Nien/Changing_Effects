@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: orange; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.changingBox{
+    height: 40vh;
+    width: 70vw;
+    background-color: #fff1ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.changingBox p{
+    text-align: center;
+    padding: 0 130px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.operationsContainer{
+    height: 50vh;
+    width: 90vw;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.operations{
+    height: 40vh;
+    width: 40vw;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forbg{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.forbg h4{
+    padding: 0 20px;
+}
+.forbg button,.forff button,.forfc button{
+    height: 5vh;
+    width: 7vw;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    margin: 0 10px;
+}
+.forff{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.forff h4{
+    padding: 0 20px;
+}
+.forfc{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.forfc h4{
+    padding: 0 20px;
+}
+.forreset{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.forreset button{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 30px;
+    background-color: #fce790;
+    border: none;
+    font-weight:bolder;
+}
+
+.codeContainer{
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    width: 40vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.cssCodes{
+    height: 80%;
+    width: 90%;
+    /* padding: 2%; */
+    /* background-color: orange; */
 }
